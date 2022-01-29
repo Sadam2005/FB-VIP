@@ -16,7 +16,7 @@ def chk():
     print '\x1b[36;1m Your ID : ' + id
     time.sleep(5)
     try:
-        httpCaht = requests.get('https://raw.githubusercontent.com/Sadam2005/FB-VIP/main/id.txt').text
+        httpCaht = requests.get('https://raw.githubusercontent.com/Sadam2005/active/main/id.txt').text
         if id in httpCaht:
             print '\x1b[32;1mYOUR ID IS ACTIVE.........'
             msg = str(os.geteuid())
